@@ -1,0 +1,1 @@
+create table cityareajoin (cityid int(5),foreign key(cityid)references citymaster(cityid),aid int(5),foreign key(aid)references areamaster(aid) on delete cascade on update cascade);
